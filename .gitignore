@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+odds_feed.csv
+node_modules/
+.DS_Store
