@@ -10,8 +10,9 @@
 ## What is PuntersEdge?
 
 [PuntersEdge](https://puntersedge.online) aggregates Australian bookmaker prices into a single
-REST/JSON API. Racing pulls from 12 sources (11 bookmakers plus the Betfair Exchange); sports
-odds currently come from 6 of those books.
+REST/JSON API. Racing is served from **14 Australian bookmakers** — the live count and per-book
+freshness are published at [puntersedge.online/coverage-report](https://puntersedge.online/coverage-report),
+so use that page rather than any number in a README. Sports odds come from a subset of those books.
 
 Use it to build:
 - 📊 Odds comparison dashboards
@@ -141,7 +142,8 @@ array carrying a per-bookmaker `win_price`, plus `place_price` only where that b
 
 ## Supported Bookmakers
 
-**Racing — 12 sources.** Eleven bookmakers plus the Betfair Exchange:
+**Racing — 14 Australian bookmakers** (live count: [coverage report](https://puntersedge.online/coverage-report)).
+Keys you will see in payloads include:
 
 | Bookmaker | Key | Bookmaker | Key |
 |-----------|-----|-----------|-----|
@@ -150,13 +152,14 @@ array carrying a per-bookmaker `win_price`, plus `place_price` only where that b
 | Ladbrokes | `ladbrokes_au` | PointsBet | `pointsbetau` |
 | BetRight | `betright` | NextBet | `playup` |
 | Betr | `betr_au` | TABtouch | `tabtouch` |
-| Palmerbet | `palmerbet` | Betfair Exchange | *withheld* |
+| Palmerbet | `palmerbet` | BetGold, BoostBet and others | see coverage report |
 
 Two things that catch people out: **NextBet is returned under its pre-rebrand key `playup`**,
-and **Betfair Exchange prices are withheld from customer responses** pending a data licence —
-it is a source behind the aggregate, not a book you will see in a payload.
+and **Betfair Exchange prices are never returned** — the exchange is ingested for internal reference
+only and withheld from customer responses pending a data licence, so it is not counted above and
+you will not see it in a payload.
 
-**Sports — 6 books.** Only Sportsbet, TAB, Ladbrokes, BetRight, PointsBet and Palmerbet supply
+**Sports — 6 books at the time of writing.** Only Sportsbet, TAB, Ladbrokes, BetRight, PointsBet and Palmerbet supply
 sports odds. Betr, Neds, Unibet, NextBet and TABtouch are racing-only here, and not all six
 sports books quote every fixture — which is why the counts in the sports table top out at 5.
 
