@@ -152,7 +152,8 @@ Keys you will see in payloads include:
 | Ladbrokes | `ladbrokes_au` | PointsBet | `pointsbetau` |
 | BetRight | `betright` | NextBet | `playup` |
 | Betr | `betr_au` | TABtouch | `tabtouch` |
-| Palmerbet | `palmerbet` | BetGold, BoostBet and others | see coverage report |
+| Palmerbet | `palmerbet` | BetDeluxe | `betdeluxe` |
+| BetGold | `betgold` | BoostBet | `boostbet` |
 
 Two things that catch people out: **NextBet is returned under its pre-rebrand key `playup`**,
 and **Betfair Exchange prices are never returned** — the exchange is ingested for internal reference
