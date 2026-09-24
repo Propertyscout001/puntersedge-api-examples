@@ -17,7 +17,7 @@ A Python script that:
 
 ## Setup
 
-Get a free API key at [puntersedge.online/developers/getting-started](https://puntersedge.online/developers/getting-started) — 1,500 credits/month, no credit card.
+Get a free API key at [puntersedge.online/developers/getting-started](https://puntersedge.online/developers/getting-started) — 3,000 credits/month, no credit card.
 
 Credits are not requests: each endpoint costs 1–5 credits per call. `/v1/sports/{key}/odds` is 1 credit per market requested, `/v1/racing/next-to-go` is 2, `/v1/best-odds/{key}` is 3. The free tier's rate limit is 30 requests/minute.
 
@@ -270,4 +270,4 @@ All examples (arb scanner, price alerts, horse racing NTG, pandas feed, JS widge
 - 📊 Coverage: [puntersedge.online/api/coverage](https://puntersedge.online/api/coverage)
 - 💰 Pricing: [puntersedge.online/pricing](https://puntersedge.online/pricing)
 
-Free tier is 1,500 credits/month — enough to run every example above many times over. Paid plans start at $9/mo for 7,500 credits, with a racing-focused plan at $19/mo for 40,000. 18+ only, gamble responsibly.
+Free tier is 3,000 credits/month — enough to run every example above many times over. Paid plans start at $9/mo for 7,500 credits, with a racing-focused plan at $19/mo for 40,000. 18+ only, gamble responsibly.

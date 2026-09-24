@@ -2,7 +2,7 @@
  * PuntersEdge API — AFL Odds (browser / Node 18+ fetch)
  * Fetch AFL head-to-head odds and display the best price per team.
  *
- * Free tier: 1,500 credits per month, no credit card. Credits are not requests —
+ * Free tier: 3,000 credits per month, no credit card. Credits are not requests —
  * this endpoint bills 1 credit per requested market, so one h2h call costs 1.
  *
  * Get a free API key: https://puntersedge.online/developers/getting-started

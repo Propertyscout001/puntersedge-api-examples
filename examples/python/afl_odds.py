@@ -2,7 +2,7 @@
 PuntersEdge API - AFL Odds Example
 Fetch AFL head-to-head odds and find the best available price per team.
 
-Get a free API key (1,500 credits/month, no credit card):
+Get a free API key (3,000 credits/month, no credit card):
     https://puntersedge.online/developers/getting-started
 API docs: https://puntersedge.online/developers/sports-odds-api-australia
 

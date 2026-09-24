@@ -11,7 +11,7 @@
  * is fine for a local demo. In production, proxy the call through your own backend
  * and keep the key server-side.
  *
- * Get a free API key (1,500 credits/month, no credit card):
+ * Get a free API key (3,000 credits/month, no credit card):
  *   https://puntersedge.online/developers/getting-started
  * Widget/API docs: https://puntersedge.online/odds-widget-api-australia
  * Interactive reference: https://api.puntersedge.online/docs

@@ -12,9 +12,9 @@
  *
  * CREDIT COST — read before leaving this running.
  * GET /v1/sports/{sport_key}/odds costs 1 credit per market requested. This script
- * asks for one market (h2h), so one poll = 1 credit. The free tier is 1,500 credits
+ * asks for one market (h2h), so one poll = 1 credit. The free tier is 3,000 credits
  * per MONTH, so a 5-minute poll running 24/7 costs ~288 credits/day and would drain
- * the free allowance in about five days. The free tier suits short sessions in the
+ * the free allowance in about ten days. The free tier suits short sessions in the
  * hours before a match; for continuous running see
  * https://puntersedge.online/api/pricing
  *

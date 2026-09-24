@@ -2,7 +2,7 @@
 PuntersEdge API — Horse Racing Next-to-Go Example
 Fetch the next upcoming Australian horse racing events with runner odds.
 
-Get a free API key (1,500 credits/month, no card): https://puntersedge.online/developers/getting-started
+Get a free API key (3,000 credits/month, no card): https://puntersedge.online/developers/getting-started
 API docs: https://puntersedge.online/horse-racing-api-australia
 """
 

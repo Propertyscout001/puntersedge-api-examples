@@ -6,8 +6,8 @@ Get a free API key: https://puntersedge.online/developers/getting-started
 API docs: https://puntersedge.online/developers/sports-odds-api-australia
 
 Cost: GET /v1/sports/{sport_key}/odds bills 1 credit per market requested, so each poll
-below costs 1 credit. Polling every 60s is 60 credits/hour — the free tier's 1,500
-credits/month covers roughly 25 hours of continuous polling, so run this for the session
+below costs 1 credit. Polling every 60s is 60 credits/hour — the free tier's 3,000
+credits/month covers roughly 50 hours of continuous polling, so run this for the session
 before a game rather than leaving it up all month. The server caches this endpoint for
 30 seconds, so polling faster than that spends credits on identical data. The free plan
 also caps you at 30 requests/minute.

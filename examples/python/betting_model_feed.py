@@ -8,7 +8,7 @@ API docs: https://puntersedge.online/betting-model-data-api
 Requires: pip install requests pandas
 
 Cost: GET /v1/sports/{sport_key}/odds bills 1 credit per requested market, so the
-run below (4 sports x 1 market) costs 4 credits. The free tier is 1,500 credits
+run below (4 sports x 1 market) costs 4 credits. The free tier is 3,000 credits
 per month, no credit card.
 """
 

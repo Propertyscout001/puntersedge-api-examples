@@ -30,7 +30,7 @@ headers = {"X-API-Key": API_KEY}
 SPORTS = ["afl", "nrl", "nba", "tennis_atp"]
 
 # Cost: this endpoint is 1 credit per requested market, so one pass over SPORTS
-# with markets=h2h costs len(SPORTS) credits. The free tier is 1,500 per month.
+# with markets=h2h costs len(SPORTS) credits. The free tier is 3,000 per month.
 
 _WORDS = re.compile(r"[a-z0-9]+")
 

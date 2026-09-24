@@ -21,7 +21,7 @@ Use it to build:
 - 🔔 Price alert systems
 - 🏇 Racing next-to-go widgets
 
-**Free tier:** 1,500 credits/month — no credit card required. Credits are not requests: most
+**Free tier:** 3,000 credits/month — no credit card required. Credits are not requests: most
 data endpoints cost 1–5 credits each (see [Credits & Rate Limits](#credits--rate-limits) below).
 
 **Get your key:** [puntersedge.online/developers/getting-started](https://puntersedge.online/developers/getting-started)
@@ -239,7 +239,7 @@ never clear that; credits reset on the 1st of each calendar month at 00:00 UTC.
 
 | Plan | Price (AUD/mo) | Credits/month | Requests/minute |
 |------|---------------|---------------|-----------------|
-| Free | $0 | 1,500 | 30 |
+| Free | $0 | 3,000 | 30 |
 | Hobby | $9 | 7,500 | 60 |
 | Standard | $29 | 75,000 | 200 |
 | Plus | $49 | 140,000 | 250 |
