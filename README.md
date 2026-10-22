@@ -10,7 +10,7 @@
 ## What is PuntersEdge?
 
 [PuntersEdge](https://puntersedge.online) aggregates Australian bookmaker prices into a single
-REST/JSON API. Racing is served from **14 Australian bookmakers** — the live count and per-book
+REST/JSON API. Racing is served from **15 Australian bookmakers**, bet365 included — the live count and per-book
 freshness are published at [puntersedge.online/coverage-report](https://puntersedge.online/coverage-report),
 so use that page rather than any number in a README. Sports odds come from a subset of those books.
 
@@ -152,7 +152,7 @@ no fixtures scheduled returns an empty array rather than an error.
 | Test Cricket | `cricket_test` | 0 | — |
 
 Read that honestly: on most individual fixtures outside AFL, NRL and NBA only one or two books
-quote. **Racing is where the bookmaker depth is** — a median of 14 books per Australian race
+quote. **Racing is where the bookmaker depth is** — a median of 15 books per Australian race
 against a maximum of 6 on any sport. If you need many books on one market, you want the racing
 endpoints, not the sports ones.
 
@@ -178,7 +178,7 @@ array carrying a per-bookmaker `win_price`, plus `place_price` only where that b
 
 ## Supported Bookmakers
 
-**Racing — 14 Australian bookmakers** (live count: [coverage report](https://puntersedge.online/coverage-report)).
+**Racing — 15 Australian bookmakers** (live count: [coverage report](https://puntersedge.online/coverage-report)).
 Keys you will see in payloads include:
 
 | Bookmaker | Key | Bookmaker | Key |
@@ -190,6 +190,7 @@ Keys you will see in payloads include:
 | Betr | `betr_au` | TABtouch | `tabtouch` |
 | Palmerbet | `palmerbet` | BetDeluxe | `betdeluxe` |
 | BetGold | `betgold` | BoostBet | `boostbet` |
+| bet365 | `bet365` | | |
 
 Two things that catch people out: **NextBet is returned under its pre-rebrand key `playup`**,
 and **Betfair Exchange prices are never returned** — the exchange is ingested for internal reference
